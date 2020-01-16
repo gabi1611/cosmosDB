@@ -29,7 +29,7 @@
         [HttpPost]
         [ActionName("Create")]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> CreateAsync([Bind("Id,Name,Description,Completed")] Item item)
+        public async Task<ActionResult> CreateAsync([Bind("Id,NumePrenume,Data,Motiv,Complet")] Item item)
         {
             if (ModelState.IsValid)
             {
@@ -44,7 +44,7 @@
         [HttpPost]
         [ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> EditAsync([Bind("Id,Name,Description,Completed")] Item item)
+        public async Task<ActionResult> EditAsync([Bind("Id,NumePrenume,Data,Motiv,Complet")] Item item)
         {
             if (ModelState.IsValid)
             {

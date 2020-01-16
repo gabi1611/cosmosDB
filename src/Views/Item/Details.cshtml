@@ -1,38 +1,45 @@
 ﻿@model todo.Models.Item
 
-<h2>View To-Do Item Details</h2>
+<h2>Programare</h2>
 
 <div>
     <h4>Item</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.Name)
+            @Html.DisplayNameFor(model => model.NumePrenume)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Name)
+            @Html.DisplayFor(model => model.NumePrenume)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Description)
+            @Html.DisplayNameFor(model => model.Data)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Description)
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Motiv)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Motiv)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Completed)
+            @Html.DisplayNameFor(model => model.Complet)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Completed)
+            @Html.DisplayFor(model => model.Complet)
         </dd>
 
     </dl>
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Inapoi la lista principala", "Index")
 </p>

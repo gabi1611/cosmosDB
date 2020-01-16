@@ -7,13 +7,16 @@
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
 
-        [JsonProperty(PropertyName = "name")]
-        public string Name { get; set; }
+        [JsonProperty(PropertyName = "Nume Prenume")]
+        public string NumePrenume { get; set; }
 
-        [JsonProperty(PropertyName = "description")]
-        public string Description { get; set; }
+        [JsonProperty(PropertyName = "Data")]
+        public string Data { get; set; }
 
-        [JsonProperty(PropertyName = "isComplete")]
-        public bool Completed { get; set; }
+        [JsonProperty(PropertyName = "Motiv")]
+        public string Motiv { get; set; }
+
+        [JsonProperty(PropertyName = "Complet")]
+        public bool Complet { get; set; }
     }
 }
