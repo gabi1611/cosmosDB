@@ -37,7 +37,7 @@
                 await _cosmosDbService.AddItemAsync(item);
                 return RedirectToAction("Index");
             }
-
+             
             return View(item);
         }
 

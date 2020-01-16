@@ -1,5 +1,5 @@
 ﻿html {
-    background-color: #E7E8FB;
+    background-color: #E7E8FB; 
 }
 body {
     padding-top: 50px;
@@ -15,8 +15,3 @@ body {
     padding-right: 15px;
 }
 
-2
-3
-.header-site {
-    background: #000000 url(http://www.yoursite.com/folder/image.jpg) 100% 100% no-repeat;
-}
